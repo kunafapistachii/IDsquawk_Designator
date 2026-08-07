@@ -1,0 +1,2699 @@
+{
+  "source": "Squawk_Allotment_ID_FIR",
+  "fir": [
+    "WAAF",
+    "WIIF"
+  ],
+  "rules": [
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAHH"
+      ],
+      "destinations": [
+        "WAHH"
+      ],
+      "order": 1,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "4550",
+      "maxSquawk": "4567",
+      "remark": "LOCAL VFR"
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WARR"
+      ],
+      "destinations": [
+        "WARR"
+      ],
+      "order": 1,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "4540",
+      "maxSquawk": "4547",
+      "remark": "LOCAL VFR"
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WADD"
+      ],
+      "destinations": [
+        "WADD"
+      ],
+      "order": 1,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "4601",
+      "maxSquawk": "4607",
+      "remark": "LOCAL VFR"
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WALL"
+      ],
+      "destinations": [
+        "WALL"
+      ],
+      "order": 1,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "4550",
+      "maxSquawk": "4567",
+      "remark": "LOCAL VFR"
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAHH"
+      ],
+      "destinations": [
+        "WAHH"
+      ],
+      "order": 2,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "4550",
+      "maxSquawk": "4567",
+      "remark": "LOCAL  IFR"
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WARR"
+      ],
+      "destinations": [
+        "WARR"
+      ],
+      "order": 2,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "4540",
+      "maxSquawk": "4547",
+      "remark": "LOCAL  IFR"
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WADD"
+      ],
+      "destinations": [
+        "WADD"
+      ],
+      "order": 2,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "4601",
+      "maxSquawk": "4607",
+      "remark": "LOCAL  IFR"
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WALL"
+      ],
+      "destinations": [
+        "WALL"
+      ],
+      "order": 2,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "4550",
+      "maxSquawk": "4567",
+      "remark": "LOCAL  IFR"
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WA",
+        "WR"
+      ],
+      "destinations": [
+        "ZZZZ"
+      ],
+      "order": 4,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "2570",
+      "maxSquawk": "2577",
+      "remark": "VFR"
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WA",
+        "WR"
+      ],
+      "destinations": [
+        "ZZZZ"
+      ],
+      "order": 6,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "2570",
+      "maxSquawk": "2577",
+      "remark": "IFR"
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAHS"
+      ],
+      "destinations": [
+        "WI"
+      ],
+      "order": 25,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "2501",
+      "maxSquawk": "2567",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAHS"
+      ],
+      "destinations": [
+        "WA"
+      ],
+      "order": 26,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6301",
+      "maxSquawk": "6377",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAH"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 27,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "4640",
+      "maxSquawk": "4677",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAH"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 28,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6660",
+      "maxSquawk": "6677",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAR"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 29,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6301",
+      "maxSquawk": "6377",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAR"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 30,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "7003",
+      "maxSquawk": "7037",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAD",
+        "WAT"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 31,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "4401",
+      "maxSquawk": "4477",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAD",
+        "WAT"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 32,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "4610",
+      "maxSquawk": "4637",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAD",
+        "WAT"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 33,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "4101",
+      "maxSquawk": "4177",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAD",
+        "WAT"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 34,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6601",
+      "maxSquawk": "6637",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAL",
+        "WAG"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 35,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "1601",
+      "maxSquawk": "1677",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAL",
+        "WAG"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 36,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "5001",
+      "maxSquawk": "5017",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAAA",
+        "WAE",
+        "WAF",
+        "WAM",
+        "WAW"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 37,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "4503",
+      "maxSquawk": "4577",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAAA",
+        "WAE",
+        "WAF",
+        "WAM",
+        "WAW"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 38,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "5601",
+      "maxSquawk": "5677",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAAA",
+        "WAE",
+        "WAF",
+        "WAM",
+        "WAW"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 39,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "5020",
+      "maxSquawk": "5057",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAAA",
+        "WAE",
+        "WAF",
+        "WAM",
+        "WAW"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 40,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6640",
+      "maxSquawk": "6657",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAAA",
+        "WAE",
+        "WAF",
+        "WAM",
+        "WAW"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 41,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "7040",
+      "maxSquawk": "7077",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAB",
+        "WAJ",
+        "WAK",
+        "WAS",
+        "WAU",
+        "WAV"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 42,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "7201",
+      "maxSquawk": "7277",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAB",
+        "WAJ",
+        "WAK",
+        "WAS",
+        "WAU",
+        "WAV"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 43,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "5060",
+      "maxSquawk": "5077",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WARI"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 44,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6430",
+      "maxSquawk": "6437",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAHS"
+      ],
+      "destinations": [
+        "WI"
+      ],
+      "order": 63,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "2501",
+      "maxSquawk": "2567",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAHS"
+      ],
+      "destinations": [
+        "WA"
+      ],
+      "order": 64,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6301",
+      "maxSquawk": "6377",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAH"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 65,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "4640",
+      "maxSquawk": "4677",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAH"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 66,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6660",
+      "maxSquawk": "6677",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAR"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 67,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6301",
+      "maxSquawk": "6377",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAR"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 68,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "7003",
+      "maxSquawk": "7037",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAD",
+        "WAT"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 69,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "4401",
+      "maxSquawk": "4477",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAD",
+        "WAT"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 70,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "4610",
+      "maxSquawk": "4637",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAD",
+        "WAT"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 71,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "4101",
+      "maxSquawk": "4177",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAD",
+        "WAT"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 72,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6601",
+      "maxSquawk": "6637",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAL",
+        "WAG"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 73,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "1601",
+      "maxSquawk": "1677",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAL",
+        "WAG"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 74,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "5001",
+      "maxSquawk": "5017",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAAA",
+        "WAE",
+        "WAF",
+        "WAM",
+        "WAW"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 75,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "4503",
+      "maxSquawk": "4577",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAAA",
+        "WAE",
+        "WAF",
+        "WAM",
+        "WAW"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 76,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "5601",
+      "maxSquawk": "5677",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAAA",
+        "WAE",
+        "WAF",
+        "WAM",
+        "WAW"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 77,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "5020",
+      "maxSquawk": "5057",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAAA",
+        "WAE",
+        "WAF",
+        "WAM",
+        "WAW"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 78,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6640",
+      "maxSquawk": "6657",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAAA",
+        "WAE",
+        "WAF",
+        "WAM",
+        "WAW"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 79,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "7040",
+      "maxSquawk": "7077",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAB",
+        "WAJ",
+        "WAK",
+        "WAS",
+        "WAU",
+        "WAV"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 80,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "7201",
+      "maxSquawk": "7277",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WAB",
+        "WAJ",
+        "WAK",
+        "WAS",
+        "WAU",
+        "WAV"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 81,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "5060",
+      "maxSquawk": "5077",
+      "remark": null
+    },
+    {
+      "center": "WAAF",
+      "origins": [
+        "WARI"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 82,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6430",
+      "maxSquawk": "6437",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIBB"
+      ],
+      "destinations": [
+        "WIBB"
+      ],
+      "order": 1,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "3301",
+      "maxSquawk": "3334",
+      "remark": "LOCAL VFR"
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIOO"
+      ],
+      "destinations": [
+        "WIOO"
+      ],
+      "order": 1,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "3301",
+      "maxSquawk": "3334",
+      "remark": "LOCAL VFR"
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIBB"
+      ],
+      "destinations": [
+        "WIBB"
+      ],
+      "order": 2,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "3301",
+      "maxSquawk": "3334",
+      "remark": "LOCAL  IFR"
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIOO"
+      ],
+      "destinations": [
+        "WIOO"
+      ],
+      "order": 2,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "3301",
+      "maxSquawk": "3334",
+      "remark": "LOCAL  IFR"
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WI"
+      ],
+      "destinations": [
+        "ZZZZ"
+      ],
+      "order": 3,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "2570",
+      "maxSquawk": "2577",
+      "remark": "VFR"
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WI"
+      ],
+      "destinations": [
+        "ZZZZ"
+      ],
+      "order": 5,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "2570",
+      "maxSquawk": "2577",
+      "remark": "IFR"
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIM",
+        "WIT"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 7,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "4701",
+      "maxSquawk": "4777",
+      "remark": "DOM"
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIM",
+        "WIT"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 8,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6200",
+      "maxSquawk": "6217",
+      "remark": "DOM"
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIM",
+        "WIT"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 9,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6701",
+      "maxSquawk": "6747",
+      "remark": "INTL"
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIB",
+        "WIE",
+        "WIG"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 10,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6220",
+      "maxSquawk": "6257",
+      "remark": "DOM"
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIB",
+        "WIE",
+        "WIG"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 11,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "3335",
+      "maxSquawk": "3347",
+      "remark": "DOM"
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIB",
+        "WIE",
+        "WIG"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 12,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6760",
+      "maxSquawk": "6777",
+      "remark": "INTL"
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WID",
+        "WIK"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 13,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6260",
+      "maxSquawk": "6277",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WID",
+        "WIK"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 14,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6401",
+      "maxSquawk": "6407",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WID",
+        "WIK"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 15,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "2450",
+      "maxSquawk": "2477",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIP"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 16,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "3350",
+      "maxSquawk": "3377",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIP"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 17,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6410",
+      "maxSquawk": "6447",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIP"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 18,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6750",
+      "maxSquawk": "6757",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIII",
+        "WIH",
+        "WIL"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 19,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "1701",
+      "maxSquawk": "1777",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIII",
+        "WIH"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 20,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "2501",
+      "maxSquawk": "2567",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIII",
+        "WIH",
+        "WIL"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 21,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "2301",
+      "maxSquawk": "2447",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIII",
+        "WIH"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 22,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "7101",
+      "maxSquawk": "7157",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIO"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 23,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "6450",
+      "maxSquawk": "6477",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIO"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 24,
+      "flightRules": "IFR",
+      "military": 0,
+      "minSquawk": "7170",
+      "maxSquawk": "7177",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIM",
+        "WIT"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 45,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "4701",
+      "maxSquawk": "4777",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIM",
+        "WIT"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 46,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6200",
+      "maxSquawk": "6217",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIM",
+        "WIT"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 47,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6701",
+      "maxSquawk": "6747",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIB",
+        "WIE",
+        "WIG"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 48,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6220",
+      "maxSquawk": "6257",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIB",
+        "WIE",
+        "WIG"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 49,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "3335",
+      "maxSquawk": "3347",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIB",
+        "WIE",
+        "WIG"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 50,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6760",
+      "maxSquawk": "6777",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WID",
+        "WIK"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 51,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6260",
+      "maxSquawk": "6277",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WID",
+        "WIK"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 52,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6401",
+      "maxSquawk": "6407",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WID",
+        "WIK"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 53,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "2450",
+      "maxSquawk": "2477",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIP"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 54,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "3350",
+      "maxSquawk": "3377",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIP"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 55,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6410",
+      "maxSquawk": "6447",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIP"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 56,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6750",
+      "maxSquawk": "6757",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIII",
+        "WIH",
+        "WIL"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 57,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "1701",
+      "maxSquawk": "1777",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIII",
+        "WIH"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 58,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "2501",
+      "maxSquawk": "2567",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIII",
+        "WIH",
+        "WIL"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 59,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "2301",
+      "maxSquawk": "2447",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIII",
+        "WIH"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 60,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "7101",
+      "maxSquawk": "7157",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIO"
+      ],
+      "destinations": [
+        "WA",
+        "WI",
+        "WR"
+      ],
+      "order": 61,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "6450",
+      "maxSquawk": "6477",
+      "remark": null
+    },
+    {
+      "center": "WIIF",
+      "origins": [
+        "WIO"
+      ],
+      "destinations": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "WB",
+        "WM",
+        "WP",
+        "WS",
+        "Y",
+        "ZB",
+        "ZG",
+        "ZH",
+        "ZJ",
+        "ZK",
+        "ZL",
+        "ZM",
+        "ZP",
+        "ZS",
+        "ZU",
+        "ZW",
+        "ZY"
+      ],
+      "order": 62,
+      "flightRules": "VFR",
+      "military": 0,
+      "minSquawk": "7170",
+      "maxSquawk": "7177",
+      "remark": null
+    }
+  ]
+}
