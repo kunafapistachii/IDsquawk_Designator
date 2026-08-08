@@ -87,6 +87,29 @@ export class AuroraClient extends EventEmitter {
   }
 
   _handleLine(rawLine) {
+    // Doc identifiers: '#' = communication message, '@' = error result.
+    // Error format observed live: "@ERR;#LBSQK;CALLSIGN;VALUE;Reason text."
+    // Previously unhandled: errors matched nothing in `pending`, so a
+    // rejected command just sat there until it timed out, hiding the real
+    // reason (e.g. "Traffic not assumed.") behind a generic timeout error.
+    if (rawLine.startsWith('@')) {
+      const errFields = rawLine.split(';');
+      const echoedCommand = (errFields[1] ?? '').replace(/^#/, '');
+      const callsign = errFields[2] ?? null;
+      const reason = errFields[errFields.length - 1] || errFields[0];
+      const matchIdx = this.pending.findIndex((p) => {
+        if (p.command !== echoedCommand) return false;
+        if (p.callsign != null && callsign !== p.callsign) return false;
+        return true;
+      });
+      if (matchIdx >= 0) {
+        const p = this.pending.splice(matchIdx, 1)[0];
+        clearTimeout(p.timer);
+        p.reject(new Error(`Aurora rejected ${echoedCommand}: ${reason}`));
+      }
+      return;
+    }
+
     const fields = splitPacket(rawLine);
     const command = fields[0];
     const matchIdx = this.pending.findIndex((p) => {
@@ -114,8 +137,11 @@ export class AuroraClient extends EventEmitter {
   // Sends `#CMD;arg1;arg2\r\n`. Throws if any arg contains ';' (protocol delimiter).
   send(command, args = []) {
     for (const arg of args) {
-      if (String(arg).includes(';')) {
-        throw new Error(`Aurora arg cannot contain ';': ${arg}`);
+      // ';' breaks field framing; \r or \n breaks line framing and lets a
+      // single arg (e.g. an unvalidated callsign from the HTTP API) inject
+      // a second Aurora command onto this connection.
+      if (/[;\r\n]/.test(String(arg))) {
+        throw new Error(`Aurora arg cannot contain ';', CR, or LF: ${arg}`);
       }
     }
     if (!this.connected || !this.socket) {

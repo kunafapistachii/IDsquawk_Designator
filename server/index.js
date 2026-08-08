@@ -9,6 +9,11 @@ import { PendingSet } from './pending.js';
 import { loadDb, assignSquawk, normalizeSquawk, normalizeFlightRules } from './matcher.js';
 
 const PORT = process.env.SERVER_PORT || 4000;
+// Bind to localhost only by default. This tool controls a live ATC
+// session over an unauthenticated API — listening on all interfaces would
+// let anyone on the same LAN hit /api/assign and drive it. Override only
+// if you understand that tradeoff.
+const HOST = process.env.SERVER_HOST || '127.0.0.1';
 const AURORA_PORT = Number(process.env.AURORA_PORT) || 1130;
 const LOG_AURORA_RAW = process.env.LOG_AURORA_RAW === '1';
 
@@ -244,6 +249,6 @@ setInterval(async () => {
   }
 }, POLL_INTERVAL_MS);
 
-httpServer.listen(PORT, () => {
-  console.log(`[server] listening on http://localhost:${PORT}`);
+httpServer.listen(PORT, HOST, () => {
+  console.log(`[server] listening on http://${HOST}:${PORT}`);
 });

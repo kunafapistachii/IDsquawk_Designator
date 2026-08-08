@@ -78,6 +78,21 @@ test('aurora: #FP maps fields per a live-confirmed raw response and preserves ra
   server.close();
 });
 
+test('aurora: @ERR response rejects the matching pending request with the real reason', async () => {
+  const server = await startMockServer((socket, line) => {
+    if (line.startsWith('#LBSQK;')) {
+      const [, callsign, sqk] = line.split(';');
+      socket.write(`@ERR;#LBSQK;${callsign};${sqk};Traffic not assumed.\r\n`);
+    }
+  });
+  const port = server.address().port;
+  const client = new AuroraClient({ host: '127.0.0.1', port, reconnectDelayMs: 100 });
+  await new Promise((resolve) => { client.on('connected', resolve); client.connect(); });
+  await assert.rejects(client.setSquawk('GIA229', '5599'), /Traffic not assumed/);
+  client.disconnect();
+  server.close();
+});
+
 test('aurora: #LBSQK sets squawk and #TRSQK reads it back', async () => {
   let stored = '0000';
   const server = await startMockServer((socket, line) => {
@@ -107,6 +122,18 @@ test('aurora: send() rejects args containing ";"', async () => {
   const client = new AuroraClient({ host: '127.0.0.1', port, reconnectDelayMs: 100 });
   await new Promise((resolve) => { client.on('connected', resolve); client.connect(); });
   assert.throws(() => client.send('LBSQK', ['GIA123', '46;01']), /cannot contain/);
+  client.disconnect();
+  server.close();
+});
+
+test('aurora: send() rejects args containing CR/LF (command injection guard)', async () => {
+  const server = await startMockServer(() => {});
+  const port = server.address().port;
+  const client = new AuroraClient({ host: '127.0.0.1', port, reconnectDelayMs: 100 });
+  await new Promise((resolve) => { client.on('connected', resolve); client.connect(); });
+  // A malicious/unvalidated callsign smuggling a second command via \r\n.
+  assert.throws(() => client.send('FP', ['GIA123\r\n#LBSQK;OTHER;9999']), /cannot contain/);
+  assert.throws(() => client.send('FP', ['GIA123\nMORE']), /cannot contain/);
   client.disconnect();
   server.close();
 });
