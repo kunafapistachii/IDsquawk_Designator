@@ -98,6 +98,16 @@ export default function App() {
   const [assigning, setAssigning] = useState({});
   const [results, setResults] = useState({});
 
+  useEffect(() => {
+    const blockCopy = (e) => e.preventDefault();
+    document.addEventListener('copy', blockCopy);
+    document.addEventListener('cut', blockCopy);
+    return () => {
+      document.removeEventListener('copy', blockCopy);
+      document.removeEventListener('cut', blockCopy);
+    };
+  }, []);
+
   async function assign(callsign) {
     setAssigning((s) => ({ ...s, [callsign]: true }));
     try {
